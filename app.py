@@ -20,6 +20,7 @@ server = app.server
 
 
 # ------------- loading index -----------
+os.system("setup.py")
 
 # reading the arxiv data
 df = pd.read_csv("data/arxiv_smaller.csv")
