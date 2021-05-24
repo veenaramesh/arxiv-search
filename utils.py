@@ -1,12 +1,13 @@
 import numpy as np
 import pickle
 import spacy
+import en_core_web_md
 from tqdm import tqdm
 from gensim.models.fasttext import FastText
 from rank_bm25 import BM25Okapi
 import nmslib
 
-def tokenize(dataframe_column, nlp=spacy.load("en_core_web_md")): 
+def tokenize(dataframe_column, nlp=en_core_web_md.load()): 
     """
     PARAMETERS
     ----------
