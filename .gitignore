@@ -1,0 +1,11 @@
+*.DS_store
+*.model
+*.npy
+*.bin
+*.dat
+*.csv
+*.p
+*.json
+venv
+*.pyc
+.env
