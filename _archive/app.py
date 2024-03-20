@@ -11,7 +11,7 @@ from dash.dependencies import Input, Output, State
 from gensim.models.fasttext import FastText
 import nmslib
 
-import utils
+import _archive.utils as utils
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
@@ -140,7 +140,7 @@ def render_content(tab):
                 
                 #### GDPR, PDPA etc.
                 
-                We urrently track nothing that we know of except your input when you press submit, and the timestamp thereof. 
+                We currently track nothing that we know of except your input when you press submit, and the timestamp thereof. 
                 
                 #### Repository and contact
                 vr3xn@virginia.edu                    

@@ -1,4 +1,6 @@
 # arXiv search engine
+This code is now outdated as of Feb 2024. 
+
 ## Using the search engine
 This search engine allows you to search efficiently through all of the arXiv articles. 
 
